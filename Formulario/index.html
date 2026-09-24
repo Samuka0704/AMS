@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de Cadastro para campeonato de games">
+    <meta name="keywords" content="HTML, CSS, Formulario, Contato">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Cadastro Valorant</title>
+</head>
+<body>
+    <main>
+        <div class="header">
+            <h1 id="titulo">Cadastro para campeonato de Valorant </h1>
+        </div>
+        <form action="#" method="post" autocomplete="off">
+           <fieldset class="Grupo">   
+              <div class="campo">
+                <label for="nome"><strong>Nome Completo</strong></label> 
+                <input type="text" name="nome" id="nome" required>
+              </div>
+               <div class="campo">
+                <label for="sobrenome"><strong>Numero de Telefo</strong></label> 
+                <input type="text" name="sobrenome" id="sobrenome" required>
+              </div>
+           </fieldset>
+              <div class="campo">
+                <label for="email"><strong>Email</strong></label> 
+                <input type="email" name="email" id="Email" required>
+              </div>
+              <div class="campo">
+                 <label><strong>Qua a modalidade você joga?<lve?/strong></label>
+                 <label>
+                    <input type="radio" name="campgames" value="rankeado" cheked>Rankeado
+                 </label>
+                 <label>
+                    <input type="radio" name="campgames" value="casual" cheked>Casual
+                 </label>
+                 <label>
+                    <input type="radio" name="campgames" value="competitivo" cheked>Competitivo
+                 </label>
+              </div>
+              <div class="campo">
+                <label for="ELO"><strong>ELO</strong></label>
+                <select id="ELO" name="ELO" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option value="ferro">Ferro</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="prata">Prata</option>  
+                    <option value="ouro">Ouro</option>   
+                    <option value="platina">Platina</option>
+                    <option value="diamante">Diamante</option>           
+                    <option value="ascendente">Ascendente</option>  
+                    <option value="immortal">Immortal</option>  
+                    <option value="radiant">Radiant</option>  
+                 </select>
+              </div>
+              <br class="Grupo">
+                <legend><strong>Selecione os personagens que ultiliza:</strong></legend>
+                <label>
+                    <input type="checkbox" name="Valorant" value="jett">Jett
+                </label>
+                <label>
+                    <input type="checkbox" name="Valorant" value="raze">Raze
+                </label>
+                 <label>
+                    <input type="checkbox" name="Valorant" value="reyna">Reyna
+                </label>
+                 <label>
+                    <input type="checkbox" name="Valorant" value="phoenix">phoenix
+                </label>
+                 <label>
+                    <input type="checkbox" name="Valorant" value="yoru">yoru
+                </label>
+                 <label>
+                    <input type="checkbox" name="Valorant" value="iso">iso
+                </label>
+                 <label>
+                    <input type="checkbox" name="Valorant" value="neon">neon
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="waylay">waylay
+                </label>
+                <br></br>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="omen">brimstone
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="viper">viper 
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="harbor">harbor
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="astra">astra
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="clove">clove
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="miks">miks
+                </label>
+                <br></br>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="sova">sova
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="breach">skye
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="jett">KAY/O
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="fade">fade
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="gekko">gekko
+                </label>
+                <br></br>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="sage">sage
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="cypher">cypher
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="killjoy">killjoy
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="chamber">chamber
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="deadlock">deadlock
+                </label>
+                 <label>
+                    <input type="checkbox" name="Valorant" value="vyse">vyse
+                </label>
+                  <label>
+                    <input type="checkbox" name="Valorant" value="veto">veto
+                </label>
+                 
+              </fieldset>
+              <div class="campo">
+                  <label for="experiencia"><strong>Fale sobre sua experiencia no valorant:</strong></label>
+                  <textarea id="experiencia" name="experiencia" rows="6" cols="47" placeholder="Descreva sua tragetória...
+                  "></textarea>
+              </div>
+              <div class="button">
+                 <button class="botao" type="submit">Concluido</button>
+              </div>
+        </form>
+    </main>
+    <footer class="footer-center">
+        <p>&copy; 2026 Cadastro de Jogadores . Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
